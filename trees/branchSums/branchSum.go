@@ -1,4 +1,4 @@
-package trees
+package BranchSums
 
 type BinaryTree struct {
 	Val   int

@@ -1,4 +1,4 @@
-package trees
+package invertTree
 
 import "github.com/halfrost/LeetCode-Go/structures"
 
