@@ -14,3 +14,13 @@
 | ----------- | ------------------------ | ----------------------- | ----------------------------- | ----------------------------- | ----------------------- |
 | Invert tree | Recursive DFS + Swapping | BFS with stack & queues | BF(TC) => O(n)/ O(TC) => O(n) | BF(SC) => O(h)/ O(SC) => O(n) | link[shorturl.at/cHKS4] |
 | Branch Sums |                          | Recursive DFS           | TC => O(n)                    | SC => O(n)                    | ---                     |
+
+## Linked list
+
+- Common patterns - Swapping nodes
+- Common Data structures - Linked list
+
+| Problem                            | Brute force | Optimal                    | TC (reasons) | SC (reasons) | Helpful links |
+| ---------------------------------- | ----------- | -------------------------- | ------------ | ------------ | ------------- |
+| Remove duplicates from sorted list |             | Swapping node to next node | TC => O(n)   | SC) => O(1)  | ---           |
+| Linked list construction           |             |                            |              |              | ---           |
