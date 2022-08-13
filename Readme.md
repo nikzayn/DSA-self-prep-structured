@@ -10,6 +10,7 @@
 - Common patterns - Swapping nodes, DFS, BFS
 - Common Data structures - Stacks and Queues
 
-| Problem     | Brute force              | Optimal                 | TC (reasons)                   | SC (reasons)                 | Helpful links           |
-| ----------- | ------------------------ | ----------------------- | ------------------------------ | ---------------------------- | ----------------------- |
-| Invert tree | Recursive DFS + Swapping | BFS with stack & queues | BF(TC) => O(n)/ BF(TC) => O(n) | O(SC) => O(h)/ O(SC) => O(n) | link[shorturl.at/cHKS4] |
+| Problem     | Brute force              | Optimal                 | TC (reasons)                  | SC (reasons)                  | Helpful links           |
+| ----------- | ------------------------ | ----------------------- | ----------------------------- | ----------------------------- | ----------------------- |
+| Invert tree | Recursive DFS + Swapping | BFS with stack & queues | BF(TC) => O(n)/ O(TC) => O(n) | BF(SC) => O(h)/ O(SC) => O(n) | link[shorturl.at/cHKS4] |
+| Branch Sums |                          | Recursive DFS           | TC => O(n)                    | SC => O(n)                    | ---                     |
