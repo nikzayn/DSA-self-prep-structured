@@ -7,7 +7,7 @@
 
 ## Trees
 
-- Common patterns - Swapping nodes, Recursive DFS, Iterative BFS
+- Common patterns - Swapping nodes, DFS, BFS
 - Common Data structures - Stacks and Queues
 
 | Problem     | Brute force              | Optimal                 | TC (reasons)                   | SC (reasons)                 | Helpful links           |
