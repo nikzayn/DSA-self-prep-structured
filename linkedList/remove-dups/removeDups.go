@@ -18,8 +18,8 @@ func RemoveDups(linkedList *LinkedList) *LinkedList {
 		}
 		// Update the currentNode next to nextNode
 		currentNode.Next = nextNode
-		// Update the currentNode to nextNode Next
-		currentNode = nextNode.Next
+		// Update the currentNode to nextNode
+		currentNode = nextNode
 	}
 	return linkedList
 }
