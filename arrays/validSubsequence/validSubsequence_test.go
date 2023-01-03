@@ -42,7 +42,7 @@ func TestValidSubsequence(t *testing.T) {
 	}
 
 	for ix, tc := range testCases {
-		t.Run(fmt.Sprintf("test %d - TwoSum should return expected output", ix), func(t *testing.T) {
+		t.Run(fmt.Sprintf("test %d - Valid subsequence should return expected output", ix), func(t *testing.T) {
 			output := validSubsequence(tc.arg1, tc.arg2)
 
 			if !reflect.DeepEqual(tc.expected, output) {
