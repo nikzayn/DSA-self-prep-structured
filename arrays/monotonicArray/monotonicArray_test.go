@@ -36,7 +36,7 @@ func TestMonotonicArray(t *testing.T) {
 	}
 
 	for idx, tc := range testCases {
-		t.Run(fmt.Sprintf("test %d - move elements to end should return expected output", idx), func(t *testing.T) {
+		t.Run(fmt.Sprintf("test %d - monotonic array should return expected output", idx), func(t *testing.T) {
 			output := isMontonicArray(tc.arg1)
 
 			if !reflect.DeepEqual(tc.expected, output) {
