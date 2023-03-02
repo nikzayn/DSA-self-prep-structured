@@ -14,26 +14,26 @@ type addTest struct {
 func TestReverseString(t *testing.T) {
 	testCases := []addTest{
 		{
-			str:      "We love Go",
-			expected: "Go love We",
+			str:      "nikhil",
+			expected: "lihkin",
 		},
 		{
-			str:      "To be or not to be",
-			expected: "be to not or be To",
+			str:      "sweet delhi",
+			expected: "ihled teews",
 		},
 		{
-			str:      "You are amazing",
-			expected: "amazing are You",
+			str:      "level",
+			expected: "level",
 		},
 		{
-			str:      "Hello     World",
-			expected: "World Hello",
+			str:      "racecar",
+			expected: "racecar",
 		},
 	}
 
 	for ix, tc := range testCases {
 		t.Run(fmt.Sprintf("test %d - reverse string should return expected output", ix), func(t *testing.T) {
-			output := ReverseString(tc.str)
+			output := reverseString(tc.str)
 
 			if !reflect.DeepEqual(tc.expected, output) {
 				t.Errorf("expected '%+v' to equal '%+v', but it did not", output, tc.expected)
