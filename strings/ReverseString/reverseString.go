@@ -1,16 +1,18 @@
 package strings
 
-import "strings"
+/*
+ * Description - Reverse a string
+ ** Approach **
+  * Initialize a rune
+  * Traverse over the string and swap the characters
+  * return reversed string
+*/
+func reverseString(str string) string {
+	runes := []rune(str)
 
-func ReverseString(str string) string {
-	//split the string
-	words := strings.Fields(str)
-
-	//Reverse the order of the words
-	for i, j := 0, len(words)-1; i < j; i, j = i+1, j-1 {
-		words[i], words[j] = words[j], words[i]
+	for i, j := 0, len(runes)-1; i < len(runes)/2; i, j = i+1, j-1 {
+		runes[i], runes[j] = runes[j], runes[i]
 	}
 
-	//Join the words
-	return strings.Join(words, " ")
+	return string(runes)
 }
