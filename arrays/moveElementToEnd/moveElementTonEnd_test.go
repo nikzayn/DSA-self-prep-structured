@@ -38,7 +38,7 @@ func TestMoveElementsToLast(t *testing.T) {
 
 	for idx, tc := range testCases {
 		t.Run(fmt.Sprintf("test %d - move elements to end should return expected output", idx), func(t *testing.T) {
-			output := moveElementToEnd(tc.arg1, tc.arg2)
+			output := moveElementToEndEff(tc.arg1, tc.arg2)
 
 			if !reflect.DeepEqual(tc.expected, output) {
 				t.Errorf("expected '%+v' to equal '%+v', but it did not", output, tc.expected)
